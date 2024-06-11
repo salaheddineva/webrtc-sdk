@@ -1,0 +1,22 @@
+{
+    "name": "veniseactivation/webrtc-sdk",
+    "autoload": {
+        "psr-4": {
+            "Veniseactivation\\WebRTCSDK\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Veniseactivation\\WebRTCSDK\\WebRTCSDKServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "salaheddineva",
+            "email": "salaheddine@veniseactivation.com"
+        }
+    ],
+    "require": {}
+}
