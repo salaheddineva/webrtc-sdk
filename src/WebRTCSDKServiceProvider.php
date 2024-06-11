@@ -14,6 +14,12 @@ class WebRTCSDKServiceProvider extends ServiceProvider
 
   public function boot()
   {
+    $this->loadViewsFrom(__DIR__ . '/../resources/views', 'webrtc-sdk');
+
+    $this->publishes([
+      __DIR__ . '/../dist' => public_path('vendor/webrtc-sdk'),
+    ], 'public');
+
     Route::prefix('webrtc-sdk')
       ->as('webrtc-sdk.')
       ->group(function() {
