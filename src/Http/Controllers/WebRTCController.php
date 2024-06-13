@@ -12,12 +12,13 @@ class WebRTCController extends Controller
   public function __construct()
   {
     $this->pusher = new Pusher(
-      "023bb5c1d36a8bc0075f",
-      "50e075920e1f10129c29",
-      "1560952",
+      config('webrtcsdk.pusher.app_key'),
+      config('webrtcsdk.pusher.app_secret'),      
+      config('webrtcsdk.pusher.app_id'),
       [
-        'cluster' => "eu",
+        'cluster' => config('webrtcsdk.pusher.app_cluster'),
         'useTLS' => true,
+        'encrypted' => config('webrtcsdk.pusher.app_encrypted') === 'true',
       ]
     );
   }

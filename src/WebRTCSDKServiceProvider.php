@@ -20,6 +20,7 @@ class WebRTCSDKServiceProvider extends ServiceProvider
     $this->publishes([
       __DIR__ . '/../dist' => public_path('vendor/webrtc-sdk'),
       __DIR__ . '/../dist/.vite/manifest.json' => public_path('vendor/webrtc-sdk/manifest.json'),
+      __DIR__.'/../config/webrtcsdk.php' => config_path('webrtcsdk.php'),
     ], 'public');
 
     Route::prefix('webrtc-sdk')
