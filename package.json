@@ -13,6 +13,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^5.2.13"
-  }
+    "dotenv": "^16.4.5",
+    "vite": "^5.2.13",
+    "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "dependencies": {
+    "laravel-echo": "^1.16.1",
+    "pusher-js": "^8.4.0-rc2",
+    "vite-compatible-simple-peer": "^9.11.0"
+  },
+  "type": "module"
 }
