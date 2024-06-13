@@ -26,6 +26,9 @@
   </div>
 
   <script type="module" src="{{ vite_asset('resources/js/app.js') }}"></script>
+  <script>
+    window.MY_SECRET = "It is a secret !!!";
+  </script>
 </body>
 
 </html>
