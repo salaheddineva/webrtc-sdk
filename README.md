@@ -1,7 +1,6 @@
 <p align="center">
 <a href="https://packagist.org/packages/veniseactivation/webrtc-sdk"><img src="https://img.shields.io/packagist/dt/veniseactivation/webrtc-sdk" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/veniseactivation/webrtc-sdk"><img src="https://img.shields.io/packagist/v/veniseactivation/webrtc-sdk" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/veniseactivation/webrtc-sdk"><img src="https://img.shields.io/packagist/l/veniseactivation/webrtc-sdk" alt="License"></a>
 </p>
 
 # Veniseactivation WebRTC SDK
