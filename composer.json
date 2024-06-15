@@ -1,6 +1,7 @@
 {
     "name": "veniseactivation/webrtc-sdk",
     "description": "WebRTC SDK for Laravel",
+    "keywords": ["webrtc", "sdk", "laravel"],
     "license": "MIT",
     "type": "library",
     "version": "0.1.0",
@@ -27,5 +28,16 @@
     ],
     "require": {
         "pusher/pusher-php-server": "^7.2"
-    }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
