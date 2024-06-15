@@ -1,5 +1,9 @@
 {
     "name": "veniseactivation/webrtc-sdk",
+    "description": "WebRTC SDK for Laravel",
+    "license": "MIT",
+    "type": "library",
+    "version": "0.1.0",
     "autoload": {
         "psr-4": {
             "Veniseactivation\\WebRTCSDK\\": "src/"
